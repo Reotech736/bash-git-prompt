@@ -1,3 +1,25 @@
+## 設定方法
+
+リポジトリを以下の手順でクローン
+
+```bash
+git clone --depth 1 https://github.com/Reotech736/bash-git-prompt-private.git ~/.bash-git-prompt
+```
+
+以下を`.bashrc`に追加
+
+```
+# bash-git-prompt setting
+GIT_PROMPT_ONLY_IN_REPO=1  			# Git管理下のディレクトリでのみ表示
+export GIT_PROMPT_THEME=Minimal_Reo_Cool	# テーマ設定
+source ~/.bash-git-prompt/gitprompt.sh
+```
+
+以下で反映
+```bash
+source ~/.bashrc
+```
+
 # Informative git prompt for bash and fish
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/magicmonty/bash-git-prompt?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
