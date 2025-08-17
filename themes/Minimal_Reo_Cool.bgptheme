@@ -14,10 +14,10 @@ override_git_prompt_colors() {
 
   # Git表示内容を寒色系で統一
   GIT_PROMPT_BRANCH="${BoldCyan}"           # ブランチ名
-  GIT_PROMPT_STAGED=" ${Cyan}●"             # ステージ済み
+  GIT_PROMPT_STAGED=" ${Cyan}s_"            # ステージ済み
   GIT_PROMPT_CONFLICTS=" ${BoldMagenta}×"   # コンフリクト
-  GIT_PROMPT_CHANGED=" ${BoldCyan}+"        # 変更あり
-  GIT_PROMPT_UNTRACKED=" ${BoldMagenta}u-"   # 未追跡ファイル
+  GIT_PROMPT_CHANGED=" ${BoldCyan}+_"       # 変更あり
+  GIT_PROMPT_UNTRACKED=" ${BoldMagenta}u_"  # 未追跡ファイル
   GIT_PROMPT_STASHED=" ${Magenta}⚑"         # stashあり
   GIT_PROMPT_CLEAN=""                       # クリーン状態では何も表示しない
 
