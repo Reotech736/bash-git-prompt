@@ -20,7 +20,7 @@ git clone --depth 1 https://github.com/Reotech736/bash-git-prompt.git ~/.bash-gi
 
 ```bash
 # bash-git-prompt setting
-GIT_PROMPT_ONLY_IN_REPO=1                       # Git管理下のディレクトリでのみ表示
+export GIT_PROMPT_ONLY_IN_REPO=1                       # Git管理下のディレクトリでのみ表示
 export GIT_PROMPT_THEME=Minimal_Reo_Cool        # テーマ設定
 source ~/.bash-git-prompt/gitprompt.sh
 ```
